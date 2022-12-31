@@ -1,4 +1,6 @@
 import chalk from 'chalk';
+import sourceMapSupport from 'source-map-support'
+sourceMapSupport.install()
 
 export function Log(...a) {
     const debug = process.env.CELERY_DEBUG || false;
