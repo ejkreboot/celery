@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "celery",
+  "version": "1.0.0",
+  "description": "Very simple logger",
+  "main": "celery.js",
+  "scripts": {
+    "test": "mocha tests/celery.test.js"
+  },
+  "keywords": [],
+  "author": "Eric J. Kort",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
